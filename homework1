@@ -1,0 +1,4 @@
+const arguments = process.argv[2];
+const radius = parseInt(arguments);
+const area = Math.PI * (radius * radius);
+console.log(`Yarıçapı ${radius} olan dairenin alanı: ${area.toFixed(2)}`);
